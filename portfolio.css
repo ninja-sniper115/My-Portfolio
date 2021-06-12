@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header start*/
+header {
+    padding: 20px 35px;
+    background-color: darkred;
+}
+
+header a {
+    text-decoration: none;
+    color: grey;
+    text-shadow: black 2px 2px;
+    font-size: 35px;
+}
+
+header nav {
+    float: right;
+    margin: -30px 0;
+}
+
+header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 40px; 
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  /*header end*/
+
+  /*hero start*/
+  .hero {
+      margin: 300px;
+  }
+
+  .hero-form {
+      color: grey;
+      text-align: center;
+      text-shadow: black 2px 2px;
+      
+  }
+  
+
+  /*aboutme*/
+  .intro {
+      background-color: darkred;
+      text-align: left;
+      padding: 50px;
+      height: 260px;
+  }
+  
+  .section-title {
+    color: grey;
+    text-shadow: black 2px 2px;
+    font-size: 40px;
+    margin: 60px 0px;
+  }
+
+  section p {
+      color: grey;
+      text-shadow: black 1px 1px;
+      text-align: center;
+      font-size: 20px;
+      margin: -190px 300px ;
+      
+  }
+  /*end of about me*/
+
+  /*start of my work*/
+.experience {
+    background-color: darkred;
+    text-align: left;
+    padding: 50px;
+    height: 260px;
+    margin: 20px 0px;
+}
